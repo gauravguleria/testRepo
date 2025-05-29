@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Step-by-Step XPath Highlighter",
+  "version": "1.0",
+  "permissions": ["scripting", "activeTab", "storage", "tabs", "sidePanel"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}

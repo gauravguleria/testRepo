@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+  }
+  button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  li {
+    margin-bottom: 5px;
+  }
