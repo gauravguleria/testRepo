@@ -61,7 +61,7 @@ clearAllBtn.onclick = async () => {
   renderList();
 };
 
-// Load saved xpaths on panel open
+// Load saved xpaths on panel Open
 loadSaved();
 
 document.addEventListener("DOMContentLoaded", () => {
